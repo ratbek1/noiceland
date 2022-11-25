@@ -1,0 +1,74 @@
+@mixin between{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@mixin menu{
+  font-family: 'Libre Franklin',sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #000000;
+}
+@mixin Illustration{
+  font-family: 'Libre Franklin',sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #999999;
+}
+@mixin japan{
+  font-family: 'Tenor Sans',sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  text-transform: uppercase;
+}
+@mixin enim{
+  font-family: 'Source Serif Pro',sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #666666;
+}
+@mixin reta{
+  font-family: 'Libre Franklin',sans-serif;
+  font-weight: 700;
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+@mixin helmut{
+  font-family: 'Tenor Sans',sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+@mixin posts{
+  font-family: 'Libre Franklin',sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #000000;
+}
+@mixin reserved{
+  font-family: 'Libre Franklin',sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #666666;
+}
+@mixin text{
+  font-family: 'Libre Franklin',sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+@mixin send{
+  font-family: 'Libre Franklin',sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}

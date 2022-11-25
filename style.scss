@@ -1,0 +1,413 @@
+@import "global";
+@import "reset";
+@import "mixins";
+@import "varables";
+#header{
+  border-bottom: solid 2px #E5E5E5;
+  .header{
+    @include between;
+    &--logo{
+      font-family: 'Libre Franklin',sans-serif;
+      padding: 30px 0;
+    }
+    &--menu{
+      a{
+        @include menu;
+        margin: 40px;
+      }
+    }
+  }
+}
+#hero{
+  .hero{
+    &--block{
+      @include between;
+      margin: 60px 0 0 0;
+      &__title{
+        margin: 0 0 0 50px;
+        &--Illustration{
+          @include Illustration;
+        }
+        &--japan{
+          @include japan;
+          width: 70%;
+          margin: 20px 0 30px 0;
+        }
+        &--enim{
+          @include enim;
+          width: 60%;
+          margin: 0 0 30px 0;
+        }
+        &--reta{
+          @include reta;
+        }
+      }
+    }
+    &--block2{
+      display: flex;
+      align-items: center;
+      gap: 60px;
+      margin: 60px 0 50px 0;
+      &__Photography{
+        @include Illustration;
+        margin: 24px 0 0 0;
+      }
+      &__helmut{
+        @include helmut;
+        width: 75%;
+        margin: 18px 0 15px 0;
+      }
+      &__ortiz{
+        @include reta;
+      }
+    }
+    &--block3{
+      display: flex;
+      align-items: center;
+      gap: 60px;
+      &__block03{
+        margin: 0 85px 0 0;
+        &--Architecture{
+          @include Illustration;
+          margin: 25px 0 0 0;
+        }
+        &--Suzanne{
+          @include helmut;
+          margin: 18px 0 15px 0;
+        }
+        &--reta{
+          @include reta;
+        }
+      }
+      &__block02{
+        margin-top: 24px;
+        &--Design{
+          @include Illustration;
+          margin: 25px 0 0 0;
+        }
+        &--Anonymous{
+          @include helmut;
+          margin: 18px 0 15px 0;
+          width: 90%;
+        }
+        &--Brekke{
+          @include reta;
+        }
+      }
+      &__block01{
+        margin-top: -25px;
+        &--Interactive{
+          @include Illustration;
+          margin: 25px 0 0 0;
+        }
+        &--London{
+          @include helmut;
+          margin: 18px 0 15px 0;
+        }
+        &--Annie{
+          @include reta;
+        }
+      }
+    }
+  }
+}
+#hero2{
+  .hero2{
+    border-top: solid 2px #E5E5E5;
+    margin: 90px 0;
+    &--latest{
+      @include Illustration;
+      margin: 90px 0 30px 0;
+    }
+    &--block{
+      display: flex;
+      align-items: center;
+      gap: 70px;
+      &__block011{
+        &--Illustration{
+          @include Illustration;
+          margin: 25px 0 0 0;
+        }
+        &--japan{
+          @include helmut;
+          margin: 18px 0 15px 0;
+        }
+        &--reta{
+          @include reta;
+        }
+      }
+      &__block012{
+        margin-top: 25px;
+        &--Illustration{
+          @include Illustration;
+          margin: 25px 0 0 0;
+        }
+        &--japan{
+          @include helmut;
+          margin: 18px 0 15px 0;
+          width: 95%;
+        }
+        &--reta{
+          @include reta;
+        }
+      }
+      &__block013{
+        margin-top: 25px;
+        &--Illustration{
+          @include Illustration;
+          margin: 25px 0 0 0;
+        }
+        &--japan{
+          @include helmut;
+          margin: 18px 0 15px 0;
+        }
+        &--reta{
+          @include reta;
+        }
+      }
+      &__block014{
+        margin-top: 42px;
+        &--Illustration{
+          @include Illustration;
+          margin: 25px 0 0 0;
+        }
+        &--japan{
+          @include helmut;
+          margin: 18px 0 15px 0;
+        }
+        &--reta{
+          @include reta;
+        }
+      }
+    }
+    &--block2{
+      display: flex;
+      align-items: center;
+      gap: 70px;
+      &__block01{
+        margin-top: 55px;
+        &--Illustration{
+          @include Illustration;
+          margin: 25px 0 0 0;
+        }
+        &--japan{
+          @include helmut;
+          margin: 18px 0 15px 0;
+        }
+        &--reta{
+          @include reta;
+        }
+      }
+      &__block02{
+        margin-top: 75px;
+        &--Illustration{
+          @include Illustration;
+          margin: 25px 0 0 0;
+        }
+        &--japan{
+          @include helmut;
+          margin: 18px 0 15px 0;
+        }
+        &--reta{
+          @include reta;
+        }
+      }
+      &__block03{
+        margin-top: 95px;
+        &--Illustration{
+          @include Illustration;
+          margin: 25px 0 0 0;
+        }
+        &--japan{
+          @include helmut;
+          margin: 18px 0 15px 0;
+          width: 80%;
+        }
+        &--reta{
+          @include reta;
+        }
+      }
+      &__block04{
+        margin-top: 95px;
+        &--Illustration{
+          @include Illustration;
+          margin: 25px 0 0 0;
+        }
+        &--japan{
+          @include helmut;
+          margin: 18px 0 15px 0;
+          width: 92%;
+        }
+        &--reta{
+          @include reta;
+        }
+      }
+    }
+    &--posts{
+      @include posts;
+      border: 1px solid #000000;
+      width: 11%;
+      text-align: center;
+      margin: 10% 0 10% 43%;
+      padding: 20px 30px;
+    }
+  }
+}
+#hero3{
+  .hero3{
+    border-top: solid 2px #E5E5E5;
+    &--featured{
+      @include Illustration;
+      margin: 90px 0 30px 0;
+    }
+    &--block{
+      @include between;
+      gap: 190px;
+      &__block02{
+        margin-top: 25px;
+        &--Graphic{
+          @include Illustration;
+          margin: 25px 0 0 0;
+        }
+        &--Need{
+          @include helmut;
+          width: 90%;
+          margin: 18px 0 15px 0;
+        }
+        &--Alessandra{
+          @include reta;
+        }
+      }
+      &__Graphic{
+        @include Illustration;
+        margin: 25px 0 0 0;
+      }
+      &__Need{
+        @include helmut;
+        width: 90%;
+        margin: 18px 0 15px 0;
+      }
+      &__Onojeghuo{
+        @include reta;
+      }
+    }
+    &--block{
+      @include between;
+      gap: 190px;
+      margin-top: 40px;
+      &__block02{
+        margin-top: 25px;
+        &--Graphic{
+          @include Illustration;
+          margin: 25px 0 0 0;
+        }
+        &--Need{
+          @include helmut;
+          width: 95%;
+          margin: 18px 0 15px 0;
+        }
+        &--Alessandra{
+          @include reta;
+        }
+      }
+      &__Graphic{
+        @include Illustration;
+        margin: 25px 0 0 0;
+      }
+      &__Need{
+        @include helmut;
+        width: 100%;
+        margin: 18px 0 15px 0;
+      }
+      &__Onojeghuo{
+        @include reta;
+      }
+    }
+  }
+}
+#contack{
+  background: black;
+  margin-top: 10%;
+  .contack{
+    &--title{
+      display: flex;
+      align-items: center;
+      &__log{
+        color: $cr;
+        font-family:'Libre Franklin',sans-serif;
+        padding: 93px 0 65px 0;
+      }
+      &__reserved{
+        @include reserved;
+        padding: 100px 0 65px 15px;
+      }
+    }
+    &--block{
+      border-top: solid 2px #4D4D4D;
+      @include between;
+      color: $cr;
+      &__Categories{
+        @include reserved;
+        margin: 60px 0 20px 0;
+      }
+      &__text{
+        @include text;
+        margin: 0 0 15px 0;
+      }
+      &__text2{
+        @include text;
+      }
+      &__block333{
+        margin-top:92px;
+        &--text{
+          @include text;
+          margin: 0 0 15px 0;
+        }
+        &--text2{
+          @include text;
+        }
+      }
+      &__Subscribe{
+        @include reserved;
+        margin: 60px 70px 20px 0 ;
+      }
+      &__input{
+        @include reserved;
+        border: white;
+        color: black;
+        outline: none;
+        padding: 14px 48px 14px 24px;
+        margin-right: 70px;
+      }
+      &__send{
+        @include send;
+        position: relative;
+        border: solid 1px black;
+        width: 12%;
+        text-align: center;
+        padding: 14px 24px;
+        margin: -41px 0 0 195px;
+      }
+    }
+    &--bottom-block{
+      display: flex;
+      gap: 200px;
+      padding-bottom: 95px;
+      color: $cr;
+      &__Information{
+        @include reserved;
+        margin: 70px 0 20px 0;
+      }
+      &__terms1{
+        @include text;
+      }
+      &__terms2{
+        @include text;
+        margin: 10px 0;
+      }
+      &__terms3{
+        @include text;
+      }
+    }
+  }
+}

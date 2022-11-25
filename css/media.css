@@ -1,0 +1,20 @@
+@media (max-width: 1200px) {
+  .hero--block2__img {
+    max-width: 100%;
+  }
+  .hero--block3__block01--img {
+    max-width: 100%;
+  }
+  .hero--block3__block02--img {
+    max-width: 100%;
+  }
+  .hero--block3__block03--img {
+    max-width: 100%;
+  }
+  #hero3 .hero3--block__block02 {
+    margin-top: 25px;
+    max-width: 100%;
+  }
+}
+
+/*# sourceMappingURL=media.css.map */

@@ -1,0 +1,710 @@
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#header {
+  border-bottom: solid 2px #E5E5E5;
+}
+#header .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#header .header--logo {
+  font-family: "Libre Franklin", sans-serif;
+  padding: 30px 0;
+}
+#header .header--menu a {
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #000000;
+  margin: 40px;
+}
+
+#hero .hero--block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 60px 0 0 0;
+}
+#hero .hero--block__title {
+  margin: 0 0 0 50px;
+}
+#hero .hero--block__title--Illustration {
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #999999;
+}
+#hero .hero--block__title--japan {
+  font-family: "Tenor Sans", sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  text-transform: uppercase;
+  width: 70%;
+  margin: 20px 0 30px 0;
+}
+#hero .hero--block__title--enim {
+  font-family: "Source Serif Pro", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #666666;
+  width: 60%;
+  margin: 0 0 30px 0;
+}
+#hero .hero--block__title--reta {
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 700;
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+#hero .hero--block2 {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  margin: 60px 0 50px 0;
+}
+#hero .hero--block2__Photography {
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #999999;
+  margin: 24px 0 0 0;
+}
+#hero .hero--block2__helmut {
+  font-family: "Tenor Sans", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+  width: 75%;
+  margin: 18px 0 15px 0;
+}
+#hero .hero--block2__ortiz {
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 700;
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+#hero .hero--block3 {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+#hero .hero--block3__block03 {
+  margin: 0 85px 0 0;
+}
+#hero .hero--block3__block03--Architecture {
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #999999;
+  margin: 25px 0 0 0;
+}
+#hero .hero--block3__block03--Suzanne {
+  font-family: "Tenor Sans", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+  margin: 18px 0 15px 0;
+}
+#hero .hero--block3__block03--reta {
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 700;
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+#hero .hero--block3__block02 {
+  margin-top: 24px;
+}
+#hero .hero--block3__block02--Design {
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #999999;
+  margin: 25px 0 0 0;
+}
+#hero .hero--block3__block02--Anonymous {
+  font-family: "Tenor Sans", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+  margin: 18px 0 15px 0;
+  width: 90%;
+}
+#hero .hero--block3__block02--Brekke {
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 700;
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+#hero .hero--block3__block01 {
+  margin-top: -25px;
+}
+#hero .hero--block3__block01--Interactive {
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #999999;
+  margin: 25px 0 0 0;
+}
+#hero .hero--block3__block01--London {
+  font-family: "Tenor Sans", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+  margin: 18px 0 15px 0;
+}
+#hero .hero--block3__block01--Annie {
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 700;
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+#hero2 .hero2 {
+  border-top: solid 2px #E5E5E5;
+  margin: 90px 0;
+}
+#hero2 .hero2--latest {
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #999999;
+  margin: 90px 0 30px 0;
+}
+#hero2 .hero2--block {
+  display: flex;
+  align-items: center;
+  gap: 70px;
+}
+#hero2 .hero2--block__block011--Illustration {
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #999999;
+  margin: 25px 0 0 0;
+}
+#hero2 .hero2--block__block011--japan {
+  font-family: "Tenor Sans", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+  margin: 18px 0 15px 0;
+}
+#hero2 .hero2--block__block011--reta {
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 700;
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+#hero2 .hero2--block__block012 {
+  margin-top: 25px;
+}
+#hero2 .hero2--block__block012--Illustration {
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #999999;
+  margin: 25px 0 0 0;
+}
+#hero2 .hero2--block__block012--japan {
+  font-family: "Tenor Sans", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+  margin: 18px 0 15px 0;
+  width: 95%;
+}
+#hero2 .hero2--block__block012--reta {
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 700;
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+#hero2 .hero2--block__block013 {
+  margin-top: 25px;
+}
+#hero2 .hero2--block__block013--Illustration {
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #999999;
+  margin: 25px 0 0 0;
+}
+#hero2 .hero2--block__block013--japan {
+  font-family: "Tenor Sans", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+  margin: 18px 0 15px 0;
+}
+#hero2 .hero2--block__block013--reta {
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 700;
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+#hero2 .hero2--block__block014 {
+  margin-top: 42px;
+}
+#hero2 .hero2--block__block014--Illustration {
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #999999;
+  margin: 25px 0 0 0;
+}
+#hero2 .hero2--block__block014--japan {
+  font-family: "Tenor Sans", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+  margin: 18px 0 15px 0;
+}
+#hero2 .hero2--block__block014--reta {
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 700;
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+#hero2 .hero2--block2 {
+  display: flex;
+  align-items: center;
+  gap: 70px;
+}
+#hero2 .hero2--block2__block01 {
+  margin-top: 55px;
+}
+#hero2 .hero2--block2__block01--Illustration {
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #999999;
+  margin: 25px 0 0 0;
+}
+#hero2 .hero2--block2__block01--japan {
+  font-family: "Tenor Sans", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+  margin: 18px 0 15px 0;
+}
+#hero2 .hero2--block2__block01--reta {
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 700;
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+#hero2 .hero2--block2__block02 {
+  margin-top: 75px;
+}
+#hero2 .hero2--block2__block02--Illustration {
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #999999;
+  margin: 25px 0 0 0;
+}
+#hero2 .hero2--block2__block02--japan {
+  font-family: "Tenor Sans", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+  margin: 18px 0 15px 0;
+}
+#hero2 .hero2--block2__block02--reta {
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 700;
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+#hero2 .hero2--block2__block03 {
+  margin-top: 95px;
+}
+#hero2 .hero2--block2__block03--Illustration {
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #999999;
+  margin: 25px 0 0 0;
+}
+#hero2 .hero2--block2__block03--japan {
+  font-family: "Tenor Sans", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+  margin: 18px 0 15px 0;
+  width: 80%;
+}
+#hero2 .hero2--block2__block03--reta {
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 700;
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+#hero2 .hero2--block2__block04 {
+  margin-top: 95px;
+}
+#hero2 .hero2--block2__block04--Illustration {
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #999999;
+  margin: 25px 0 0 0;
+}
+#hero2 .hero2--block2__block04--japan {
+  font-family: "Tenor Sans", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+  margin: 18px 0 15px 0;
+  width: 92%;
+}
+#hero2 .hero2--block2__block04--reta {
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 700;
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+#hero2 .hero2--posts {
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #000000;
+  border: 1px solid #000000;
+  width: 11%;
+  text-align: center;
+  margin: 10% 0 10% 43%;
+  padding: 20px 30px;
+}
+
+#hero3 .hero3 {
+  border-top: solid 2px #E5E5E5;
+}
+#hero3 .hero3--featured {
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #999999;
+  margin: 90px 0 30px 0;
+}
+#hero3 .hero3--block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 190px;
+}
+#hero3 .hero3--block__block02 {
+  margin-top: 25px;
+}
+#hero3 .hero3--block__block02--Graphic {
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #999999;
+  margin: 25px 0 0 0;
+}
+#hero3 .hero3--block__block02--Need {
+  font-family: "Tenor Sans", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+  width: 90%;
+  margin: 18px 0 15px 0;
+}
+#hero3 .hero3--block__block02--Alessandra {
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 700;
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+#hero3 .hero3--block__Graphic {
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #999999;
+  margin: 25px 0 0 0;
+}
+#hero3 .hero3--block__Need {
+  font-family: "Tenor Sans", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+  width: 90%;
+  margin: 18px 0 15px 0;
+}
+#hero3 .hero3--block__Onojeghuo {
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 700;
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+#hero3 .hero3--block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 190px;
+  margin-top: 40px;
+}
+#hero3 .hero3--block__block02 {
+  margin-top: 25px;
+}
+#hero3 .hero3--block__block02--Graphic {
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #999999;
+  margin: 25px 0 0 0;
+}
+#hero3 .hero3--block__block02--Need {
+  font-family: "Tenor Sans", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+  width: 95%;
+  margin: 18px 0 15px 0;
+}
+#hero3 .hero3--block__block02--Alessandra {
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 700;
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+#hero3 .hero3--block__Graphic {
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #999999;
+  margin: 25px 0 0 0;
+}
+#hero3 .hero3--block__Need {
+  font-family: "Tenor Sans", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+  width: 100%;
+  margin: 18px 0 15px 0;
+}
+#hero3 .hero3--block__Onojeghuo {
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 700;
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+#contack {
+  background: black;
+  margin-top: 10%;
+}
+#contack .contack--title {
+  display: flex;
+  align-items: center;
+}
+#contack .contack--title__log {
+  color: white;
+  font-family: "Libre Franklin", sans-serif;
+  padding: 93px 0 65px 0;
+}
+#contack .contack--title__reserved {
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #666666;
+  padding: 100px 0 65px 15px;
+}
+#contack .contack--block {
+  border-top: solid 2px #4D4D4D;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+#contack .contack--block__Categories {
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #666666;
+  margin: 60px 0 20px 0;
+}
+#contack .contack--block__text {
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  margin: 0 0 15px 0;
+}
+#contack .contack--block__text2 {
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+#contack .contack--block__block333 {
+  margin-top: 92px;
+}
+#contack .contack--block__block333--text {
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  margin: 0 0 15px 0;
+}
+#contack .contack--block__block333--text2 {
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+#contack .contack--block__Subscribe {
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #666666;
+  margin: 60px 70px 20px 0;
+}
+#contack .contack--block__input {
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #666666;
+  border: white;
+  color: black;
+  outline: none;
+  padding: 14px 48px 14px 24px;
+  margin-right: 70px;
+}
+#contack .contack--block__send {
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  position: relative;
+  border: solid 1px black;
+  width: 12%;
+  text-align: center;
+  padding: 14px 24px;
+  margin: -41px 0 0 195px;
+}
+#contack .contack--bottom-block {
+  display: flex;
+  gap: 200px;
+  padding-bottom: 95px;
+  color: white;
+}
+#contack .contack--bottom-block__Information {
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #666666;
+  margin: 70px 0 20px 0;
+}
+#contack .contack--bottom-block__terms1 {
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+#contack .contack--bottom-block__terms2 {
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  margin: 10px 0;
+}
+#contack .contack--bottom-block__terms3 {
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+/*# sourceMappingURL=style.css.map */
